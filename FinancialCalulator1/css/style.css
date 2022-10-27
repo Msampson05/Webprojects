@@ -1,0 +1,30 @@
+/*Index Page*/
+
+#home {
+    background-image: url("Mathhompagebackgd.png");
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-position: top 60px center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+#home .container{
+    position: fixed;
+}
+
+#home h5 {
+    color: white;
+}
+
+#home h1{
+  color: bisque;
+}
+
+#home p{
+    color: bisque;
+
+}

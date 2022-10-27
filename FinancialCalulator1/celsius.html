@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Converter Calculator </title>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+ <!-- Navigation Bar-->
+ <nav class="navbar navbar-expand-lg navbar-light bg-white py-5">
+    <div class="container">
+      <img src="/images/navbarlogo.JPG" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="celsius.html">Celsius</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fahrenheit.html">Fahrenheit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mortgage.html">Mortgage Calculator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="compound.html">CD Calculator</a>
+          </li>
+        </div>
+    </div>
+  </nav>
+</header>
+<main>
+    
+    
+    
+    
+    <section>
+    <div class="container" id="Celsiusconverter">
+        <div class ="row">
+            <div class = "col">
+                <div class="card"></div>
+                <div class="card-body">
+                    <h5> Celsius Converter</h5>
+                    <h6>Convert to Celsius to Fahrenheit Now</h6>
+
+                    <form>
+                        <div class="mb-3">
+                         
+                          <div class="mb-3">
+                              <label for="celsiusInputField" class="form-lavel">Celsius</label>
+                              <input type="text" class="form-control" id="celsiusInputField" placeholder="Input Number Here" /> 
+                          </div>
+                            
+                          
+                             <input type="button" id="CelsiusConvertbtn" class="btn btn-warning" value="Convert">
+                            
+                            <div>
+                              <label for="fahrenheitInputField" class="form-level">Fahrenheit</label>
+                              <input type="text" class="form-control" id="fahrenheitInputField" placeholder="Conversion Here" readonly /> 
+                            </div>
+
+                           <div class="mt-3">
+                               <input type="button" id="resetbtn" value="Reset" class="btn btn-warning" onclick="this.form.reset();">
+                           </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    </section>
+
+</main>
+
+<footer>
+
+</footer>
+
+<script src="/scripts/celsius.js"></script>
+</body>
+</html>
